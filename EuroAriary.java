@@ -17,27 +17,27 @@ import java.awt.event.*;
 
             panel.setLayout(null);
             JLabel Euro = new JLabel("Euro : ");
-            Euro.setBounds(60, 20, 80, 25);
+            Euro.setBounds(60, 20, 140, 25);
             panel.add(Euro);
 
             JTextField EuroText = new JTextField(20);
-            EuroText.setBounds(120, 20, 185, 30);
+            EuroText.setBounds(190, 20, 185, 30);
             panel.add(EuroText);
 
             JLabel Ariary = new JLabel("Taux de change: ");
-            Ariary.setBounds(60, 80, 80, 25);
+            Ariary.setBounds(60, 80, 140, 25);
             panel.add(Ariary);
 
             JTextField AriaryText = new JTextField(20);
-            AriaryText.setBounds(160, 80, 185, 30);
+            AriaryText.setBounds(190, 80, 185, 30);
             panel.add(AriaryText);
 
-            JLabel Montant = new JLabel("Montant: ");
-            Montant.setBounds(60, 130, 80, 25);
+            JLabel Montant = new JLabel("Montant en Ariary: ");
+            Montant.setBounds(60, 130, 140, 25);
             panel.add(Montant);
 
             JTextField MontantText = new JTextField(20);
-            MontantText.setBounds(150, 130, 185, 30);
+            MontantText.setBounds(190, 130, 185, 30);
             panel.add(MontantText);
 
             JButton Conversion = new JButton("Conversion Euro-Ariary");
